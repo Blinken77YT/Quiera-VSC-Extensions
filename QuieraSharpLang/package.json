@@ -1,0 +1,25 @@
+{
+  "name": "quiera-sharp",
+  "displayName": "Quiera Sharp",
+  "description": "Simple Language Support for Quiera Sharp",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "qui#",
+      "aliases": ["Quiera Sharp", "qui#"],
+      "extensions": [".qui",".qui#"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "qui#",
+      "scopeName": "source.quish",
+      "path": "./syntaxes/qui#.tmLanguage.json"
+    }]
+  }
+}

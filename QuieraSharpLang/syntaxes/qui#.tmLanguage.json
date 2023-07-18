@@ -1,0 +1,56 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Quiera Sharp",
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#function-name"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.qui#",
+				"match": "\\b(if|for|return|defunc|end|var|then)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.qui#",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.qui#",
+					"match": "\\\\."
+				}
+			]
+		},
+		"comments": {
+			"name": "punctuation.definition.comment.qui#",
+			"begin": "#",
+			"end": "\\n",
+			"patterns": [
+				{
+					"name": "punctuation.comment.qui#"
+				}
+			]
+		},
+		"function-name": {
+			"name": "entity.name.function.qui#",
+			"patterns": [
+				{
+					"match": "\\bdefunc\\s+[a-zA-Z_][a-zA-Z0-9_]*\\b"
+				}
+			]
+		}
+	},
+	"scopeName": "source.quish"
+}
