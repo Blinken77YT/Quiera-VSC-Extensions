@@ -1,16 +1,18 @@
-# QDark README
+# Quiera-Sharp README
 
-## Working with Markdown
+QDark is a basic theme made by [Blinken77](https://www.youtube.com/@blinken77)
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Features
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+Current support for Python.
+Other language support exists but might be a bit buggy.
 
-## For more information
+## Issues
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Repport issues at [Issues](https://github.com/Blinken77YT/Quiera-VSC-Extensions/issues)
 
-**Enjoy!**
+## Changelog
+
+[Changelog](CHANGELOG.md)
+
+### **Enjoy!**
