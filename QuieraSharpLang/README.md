@@ -10,7 +10,7 @@ Code snippets are planned.
 
 ## Issues
 
-Repport issues at [Issues](https://github.com/Blinken77YT/Quiera-VSC-Extensions/issues)
+Repport issues at [Issues](https://github.com/Blinken77YT/Quiera-VSC-Extensions/issues).
 
 ## Changelog
 
