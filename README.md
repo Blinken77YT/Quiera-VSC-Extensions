@@ -3,4 +3,4 @@
 * [QDark](QDark)
 
 ## Q# Lang
-* [QDark](QuieraSharpLang)
+* [Q# Lang](QuieraSharpLang)
